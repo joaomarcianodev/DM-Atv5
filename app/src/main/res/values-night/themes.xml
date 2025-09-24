@@ -8,12 +8,11 @@
     <style name="Theme.Calculadora" parent="Base.Theme.Calculadora" />
 
     <style name="CalculatorButton">
-        <item name="android:layout_width">95dp</item>
-        <item name="android:layout_height">100dp</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:textSize">50sp</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:borderlessButtonStyle">?android:attr/borderlessButtonStyle</item> </style>
+        <item name="android:borderlessButtonStyle">?android:attr/borderlessButtonStyle</item>
+    </style>
 
     <style name="CalculatorButton.Number" parent="CalculatorButton">
         <item name="android:backgroundTint">@color/button_number_background</item>
